@@ -4,13 +4,11 @@ import "./Transporte.css"
 
 function Transporte() {
     return (
-    <div className='transporte'>
+    <div className='transporte' style={{backgroundColor: '#f5f5f5'}}>
 
         <h1>---TRASLADOS---</h1>
         
              <img src={traslado} />
-        
-          
         
             <h2 >Desde ahora ya podes contratar tu traslado!!!</h2>
 
