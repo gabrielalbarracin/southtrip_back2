@@ -12,14 +12,14 @@ const Barrainferior = () => {
 
     return (
     <div className="barra">
-        
+    <a href="/">
         <img src={logo} alt= " " />
-        
+        </a>   
         <div className="barra2">
-            <p> <BsPinMap/> <a>  rivadavia 234, ushuaia city</a></p>
-            <p> <BsTelephone/>  +54 267 456321</p>
-            <p> <FiMail/>  info@southrip.com.ar</p>
-            <p> <BsWhatsapp/>  +3462304065</p>
+            <p> <BsPinMap/> Rivadavia 234, ushuaia city</p>
+            <p> <BsTelephone/> +54 267 456321</p>
+            <p> <FiMail/> info@southrip.com.ar</p>
+            <p> <BsWhatsapp/> +3462304065</p>
             <p>  ©Copyright 2022 Southrip</p>
 
 

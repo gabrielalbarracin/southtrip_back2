@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, CardGroup,Button, } from 'react-bootstrap'
+import { Card, CardGroup,Button, Image, CardImg} from 'react-bootstrap'
 import { AiFillInstagram } from 'react-icons/ai';
 import { BsInstagram } from 'react-icons/bs';
 import logo from "./imagenes/logo.jpg";
@@ -9,21 +9,78 @@ import turismo3 from "./imagenes/turismo.3.jpeg";
 import turismo4 from "./imagenes/turismo.4.jpeg";
 import aventura from "./imagenes/aventura.1.jpeg";
 import "./Instagram.css"
+import faro from "./imagenes/faro.jpeg"
+
+
+
+
 //import {Link} from "react"
+
+
+
 
 function Instagram() {
     return (
+        
+
+
     <div>
-<div className='boton'>
-  <AiFillInstagram/>  <a href='https://www.instagram.com/southtripushuaia/' > southtripushuaia</a> 
+        <div className='botonin'>
+        <AiFillInstagram/>  <a href='https://www.instagram.com/southtripushuaia/' > southtripushuaia</a> 
 
-</div>
+    </div>
+        {/* <div>
+            <script src="https://snapwidget.com/js/snapwidget.js"></script>
+            <iframe src="https://snapwidget.com/embed/983074" class="snapwidget-widget" allowtransparency="true" frameborder="0" scrolling="no" 
+                style="border:none; overflow:hidden;  width:100%; ">
+            </iframe>
+        </div> */}
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                    <img src={faro} width='100%' height='100%'/>
+                </div>
+                <div class="col-4">
+                    <img src={faro} width='100%' height='100%'/>
+                </div>
+                <div class="col-4">
+                    <img src={faro} width='100%' height='100%'/>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4">
+                <img src={faro} width='100%' height='100%'/>
+                </div>
+                <div class="col-4">
+                <img src={faro} width='100%' height='100%'/>
+                </div>
+                <div class="col-4">
+                <img src={faro} width='100%' height='100%'/>
+                </div>
+            </div>
+        </div>
+                    
+        
+        
+         {/* <div className='gallery-container'>
+            <div className='gallery-card'>
+            
+          {/* src="https://www.instagram.com/p/CXWqSL5J35J/.jpg"
+        /> 
+                <img src='https://www.instagram.com/p/CXWqSL5J35J/'></img>
+            </div>
 
-          <div className='instagram'>
+        </div>  */}
+    
+
+
+           {/* <div className='instagram'>
        
             <CardGroup>
                 <Card>
-                    <Card.Img variant="top" src={turismo1} height="500" width="300" />
+                    <Card.Img variant="top" src={"https://www.instagram.com/p/CXWqSL5J35J/"} height="300" width="100" />
                     <Card.Body>
                     </Card.Body>
                 
@@ -40,10 +97,10 @@ function Instagram() {
 
                 </Card>
             </CardGroup>
-          </div>
+          </div>  */}
 
 
-          <div className='instagram2'>
+          {/* <div className='instagram2'>
 
             <CardGroup>
                 <Card>
@@ -65,11 +122,11 @@ function Instagram() {
                 </Card>
             </CardGroup>
        
-         </div>  
+         </div>   */}
 
-       <div>
+       {/* <div>
            <a href='https://www.instagram.com'><img src="https://www.instagram.com/p/CXeP89gp_lO"></img> </a>
-       </div>
+       </div> */}
 
             {/* <iframe width="300" height="300" src='https://www.instagram.com/p/CYPXEJ_qkFa/embed' frameborder="0"></iframe> 
             <iframe width="300" height="300" src='https://www.instagram.com/p/CXeP89gp_lO/embed' frameborder="0"></iframe>

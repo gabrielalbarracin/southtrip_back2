@@ -1,16 +1,15 @@
 import React from 'react';
-import Login from '../components/login/Login';
+import Actividades from '../components/Actividades/Actividades';
 import Barrainferior from '../components/Barrainferior/Barrainferior';
 import Barrasuperior from '../components/Barrasuperior/Barrasuperior';
 
 
-const LoginView = (props) => {
+const ActividadesViews = (props) => {
   return (
-    <div className="App">
+    <div>
       <Barrasuperior />
-        <br/>
         <dr/>
-        <Login />
+        <Actividades />
         <br/>
         <dr/>
       <Barrainferior />
@@ -19,4 +18,5 @@ const LoginView = (props) => {
   );
 }
 
-export default LoginView;
+export default ActividadesViews;
+

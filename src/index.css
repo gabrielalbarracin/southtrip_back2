@@ -18,10 +18,6 @@ body {
   font-style: normal;
 }
 
-.nav{
-  
-  
-} 
 
 code {
   font-family:
@@ -83,6 +79,7 @@ code {
   
 }
 
-.barra2{
- 
+.fondo{
+  background-image: url(./components/Turismo/Imagenes/fondo.jpg);
+  background-color: red;
 }

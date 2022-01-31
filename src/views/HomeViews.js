@@ -8,7 +8,7 @@ import Instagram from '../components/Instagram/Instagram';
 import Transporte from '../components/Transporte/Transporte';
 import Barrainferior from '../components/Barrainferior/Barrainferior';
 import BtnFlotante from '../components/Btn-flotante/BtnFlotante';
-
+import Turismo from '../components/Turismo/Turismo';
 
 const HomeView = (props) => {
   return (
@@ -36,6 +36,40 @@ const HomeView = (props) => {
       <Texto/>
       <br/>
       <br/>
+      <div className='fondo' style={{backgroundColor: '#8396d6'}}>
+        <Turismo/>
+      </div>
+      
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
+     
+      
       <Transporte/>
       <Excursiones/>
       <br/>

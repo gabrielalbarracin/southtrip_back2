@@ -54,13 +54,16 @@ const Barrasuperior = () => {
                       <a class="nav-link" href="/">Inicio <span class="sr-only"></span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Actividades</a>
+                      <a class="nav-link" href="/Actividades">Actividades</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Traslados</a>
+                      <a class="nav-link" href="#traslados">Traslados</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Nosotros</a>
+                      <a class="nav-link" href="/Nosotros">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="/Contacto">Contacto</a>
                     </li>
                   </ul>
                 </div>
